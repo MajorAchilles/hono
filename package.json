@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Node.js virtual host manager",
   "main": "dist/hono.js",
+  "bin": {
+    "hono": "./dist/hono.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -c webpack.prod.js",
     "build:dev": "webpack -c webpack.dev.js",
-    "build:run": "yarn build:dev && yarn start", 
+    "build:run": "yarn build:dev && yarn start",
     "start": "node dist/hono.js",
     "start:dev": "nodemon --watch lib --exec yarn build:run"
   },
@@ -38,10 +41,13 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/register": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
     "node-http-proxy": "^0.2.3",
     "nodemon": "^2.0.7",
     "webpack": "^5.12.2",
     "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack-dev-server": "^3.11.1",
+    "yargs": "^16.2.0"
   }
 }

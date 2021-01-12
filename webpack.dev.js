@@ -1,5 +1,7 @@
 // Imports: Dependencies
 const path = require('path');
+const webpack = require("webpack");
+
 // Webpack Configuration
 const config = {
   mode: 'development',
@@ -22,6 +24,9 @@ const config = {
       },
     ]
   },
+  plugins: [
+    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true }),
+  ],
   devtool: 'source-map'
 };
 // Exports

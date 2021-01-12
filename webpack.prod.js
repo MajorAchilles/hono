@@ -1,5 +1,6 @@
 // Imports: Dependencies
 const path = require('path');
+const webpack = require("webpack");
 // Webpack Configuration
 const config = {
   mode: 'production',
@@ -21,7 +22,10 @@ const config = {
         use: ['babel-loader'],
       },
     ]
-  }
+  },
+  plugins: [
+    new webpack.BannerPlugin({ banner: "#!/usr/bin/env node", raw: true }),
+  ],
 };
 // Exports
 module.exports = config;
