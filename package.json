@@ -12,7 +12,7 @@
     "build:dev": "webpack -c webpack.dev.js",
     "build:run": "yarn build:dev && yarn start",
     "start": "node dist/hono.js",
-    "start:dev": "nodemon --watch lib --exec yarn build:run"
+    "start:dev": "nodemon --watch lib --exec yarn build:dev"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,7 @@
     "chalk": "^4.1.0",
     "node-http-proxy": "^0.2.3",
     "nodemon": "^2.0.7",
+    "open": "^7.3.1",
     "webpack": "^5.12.2",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1",
