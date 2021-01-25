@@ -1,0 +1,13 @@
+{
+  "guests": [
+    {
+      "id": "123",
+      "name": "Server 1",
+      "host": "server.mydomain.com",
+      "port": 12002,
+      "dir": "/root/servers/server1",
+      "command": "yarn start",
+      "manual": false
+    }
+  ]
+}
