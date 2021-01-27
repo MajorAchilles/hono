@@ -52,6 +52,7 @@
     "boxen": "^5.0.0",
     "chalk": "^4.1.0",
     "cli-spinners": "^2.5.0",
+    "cli-table": "^0.3.4",
     "http-proxy": "^1.18.1",
     "node-http-proxy": "^0.2.3",
     "node-ipc": "^9.1.3",
