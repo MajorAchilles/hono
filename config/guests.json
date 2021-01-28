@@ -1,11 +1,20 @@
 {
   "guests": [
     {
-      "id": "123",
-      "name": "Server 1",
-      "host": "server.mydomain.com",
-      "port": 12002,
-      "dir": "/root/servers/server1",
+      "id": "7da3e8b2-9f0a-4b68-84e8-931cd7b18fb0",
+      "name": "React Starter",
+      "host": "reactstarter.locahost",
+      "port": 8081,
+      "dir": "/Users/amlanjyotisaikia/Projects/personal/react-starter",
+      "command": "yarn start",
+      "manual": false
+    },
+    {
+      "id": "57e9a17a-1e01-493f-92d1-4dbbf882e88c",
+      "name": "Promics",
+      "host": "promics.locahost",
+      "port": 3000,
+      "dir": "/Users/amlanjyotisaikia/Projects/personal/promics-web",
       "command": "yarn start",
       "manual": false
     }
