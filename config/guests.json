@@ -3,8 +3,11 @@
     {
       "id": "1",
       "name": "React Starter",
-      "host": "reactstarter.locahost",
-      "port": 8081,
+      "host": "server1.local.com",
+      "target": {
+        "host": "localhost",
+        "port": 8081
+      },
       "dir": "/Users/amlanjyotisaikia/Projects/personal/react-starter",
       "command": "yarn start",
       "manual": false
@@ -12,8 +15,11 @@
     {
       "id": "2",
       "name": "Promics",
-      "host": "promics.locahost",
-      "port": 3000,
+      "host": "server2.local.com",
+      "target": {
+        "host": "localhost",
+        "port": 3000
+      },
       "dir": "/Users/amlanjyotisaikia/Projects/personal/promics-web",
       "command": "yarn start",
       "manual": false
